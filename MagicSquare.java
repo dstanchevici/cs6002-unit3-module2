@@ -76,13 +76,31 @@ public class MagicSquare {
 
     static void print (int[][] A)
     {
+	int sum = 0;
+	for (int i=0; i<A[0].length; i++) {
+	    sum += A[0][i];
+	}
+
+	System.out.println ();
         System.out.println ("Square of size " + A.length + ":");
         for (int i=0; i<A.length; i++) {
             for (int j=0; j<A[i].length; j++) {
                 System.out.printf ("%3d", A[i][j]);
             }
+	    System.out.print (" | " + sum);
             System.out.println ();
         }
+
+	for (int k=0; k<A[0].length; k++) {
+	    System.out.print ("---");
+	}
+	System.out.println ();
+	for (int k=0; k<A[0].length; k++) {
+            System.out.printf ("%3d", sum);
+	}
+	System.out.println ();
+	System.out.println ();
+
     }
     
 }
