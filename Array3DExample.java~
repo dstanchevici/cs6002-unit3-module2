@@ -1,0 +1,19 @@
+// Unit 3, Module 2
+
+public class Array3DExample {
+
+    public static void main (String[] argv)
+    {
+	int[][][] A = {
+	    {
+		{},
+		{},
+		{}
+	    },
+	    {
+
+	    },
+	};
+    }
+
+}
