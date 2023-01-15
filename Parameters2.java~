@@ -1,0 +1,16 @@
+// Unit 3, Module 2
+
+import java.util.*;
+
+public class Parameters2 {
+
+    public static void main (String[] argv)
+    {
+	int[] A = {1, 2};
+	int[] B = {3, 4};
+
+	System.out.println ("BEFORE: A=" + Arrays.toString(A) +" BEFORE: B=" + Arrays.toString(B));
+    }
+
+
+}
